@@ -19,7 +19,6 @@ const Table = ({ mockData }) => {
     getTableProps,
     getTableBodyProps,
     headerGroups,
-    rows,
     prepareRow,
     setGlobalFilter,
     page,

@@ -1,4 +1,3 @@
-import { format } from "date-fns";
 
 export const COLUMNS = [
   // {
@@ -13,9 +12,7 @@ export const COLUMNS = [
     Cell: tableProps => (
       <img
         src={tableProps.row.original.photo}
-        width={60}
-        alt="https://resources.premierleague.com/premierleague/photos/players/250x250/p113534.png"
-      />
+        width={60}/>
     )
   },
   {
@@ -43,5 +40,4 @@ export const COLUMNS = [
     accessor: "total_points",
     disableFilters: true,
   },
-
 ];
